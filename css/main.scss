@@ -1,0 +1,18 @@
+$main-color: #2367ae;
+$red-color: red;
+
+body {
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  header {
+    background: $main-color;
+  }
+  h2 {
+    color: $main-color;
+  }
+
+}
